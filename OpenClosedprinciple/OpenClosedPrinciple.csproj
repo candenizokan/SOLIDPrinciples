@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Bad\Editor.cs" />
     <Compile Include="Bad\Shape.cs" />
+    <Compile Include="Good\Circle.cs" />
     <Compile Include="Good\Editor.cs" />
     <Compile Include="Good\Shape.cs" />
     <Compile Include="Good\Triangle.cs" />
