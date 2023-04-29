@@ -8,6 +8,7 @@ namespace SingleResponsibility
 {
     public class Employee
     {
+        //SINGLE RESPONSIBLITY=> her sınıf / metod tek sorumluluğa hizmet etmeli yani değişmesi için tek bir nedeni olmalı
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string TCno { get; set; }
