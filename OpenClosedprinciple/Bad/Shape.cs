@@ -8,6 +8,7 @@ namespace OpenClosedprinciple.Bad
 {
     public class Shape
     {
+        public string Name { get; set; }
 
     }
 }
