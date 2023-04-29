@@ -45,14 +45,17 @@
   <ItemGroup>
     <Compile Include="Bad\Guvercin.cs" />
     <Compile Include="Bad\Kus.cs" />
+    <Compile Include="Bad\Tavuk.cs" />
+    <Compile Include="Good\Guvercin.cs" />
+    <Compile Include="Good\IUc.cs" />
+    <Compile Include="Good\Kus.cs" />
+    <Compile Include="Good\Tavuk.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
