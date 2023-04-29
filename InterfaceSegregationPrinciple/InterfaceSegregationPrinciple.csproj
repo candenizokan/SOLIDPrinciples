@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bad\Forvet.cs" />
+    <Compile Include="Bad\IFutbolcu.cs" />
+    <Compile Include="Bad\Kaleci.cs" />
+    <Compile Include="Good\IDefansYap.cs" />
+    <Compile Include="Good\IGolAt.cs" />
+    <Compile Include="Good\IPasAt.cs" />
+    <Compile Include="Good\IPenaltiKurtar.cs" />
+    <Compile Include="Good\Models\Forvet.cs" />
+    <Compile Include="Good\Models\Kaleci.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
