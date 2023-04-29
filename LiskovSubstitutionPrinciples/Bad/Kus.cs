@@ -8,8 +8,8 @@ namespace LiskovSubstitutionPrinciples.Bad
 {
     public abstract class Kus
     {
-        public abstract string Uc { get; }
-        public abstract string Yuru { get; }
-        public abstract string Beslen { get; }
+        public abstract string Uc();
+        public abstract string Yuru();
+        public abstract string Beslen();
     }
 }
