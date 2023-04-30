@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Bad\Balik.cs" />
     <Compile Include="Bad\Restoran.cs" />
+    <Compile Include="Bad\Tavuk.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
