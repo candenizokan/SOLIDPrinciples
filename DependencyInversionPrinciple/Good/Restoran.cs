@@ -22,5 +22,13 @@ namespace DependencyInversionPrinciple.Good
         {
             _urunler = urunler;
         }
+
+        public void YemekHazirla()
+        {
+            foreach (var item in _urunler)
+            {
+                item.Pisir();
+            }
+        }
     }
 }
