@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple.Bad
 {
-    public class Restoran
+    public class Restoran//yüksek seviyeli sınıf ihtiyaç duyan
     {
         Balik balik = new Balik();
-        Tavuk tavuk = new Tavuk();
+        Tavuk tavuk = new Tavuk();//ihtiyaç duyulan düşük seviyeli
 
         public void YemekHazirla()
         {
