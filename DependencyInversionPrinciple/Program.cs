@@ -35,7 +35,17 @@ namespace DependencyInversionPrinciple
 
             List<IUrun> talepler = new List<IUrun> { balik,balik1,tavuk};
             Restoran restoran = new Restoran(talepler);
-            
+
+
+            List<IUrun> taleps = new List<IUrun>();
+            taleps.Add(balik1);
+            taleps.Add(tavuk);
+
+            Restoran restoran1 = new Restoran(taleps);
+
+
+            restoran1.YemekHazirla();
+
         }
     }
 }
