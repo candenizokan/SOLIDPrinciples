@@ -9,10 +9,12 @@ namespace DependencyInversionPrinciple.Bad
     public class Restoran
     {
         Balik balik = new Balik();
+        Tavuk tavuk = new Tavuk();
 
         public void YemekHazirla()
         {
             balik.Pisir();
+            tavuk.Pisir();
         }
     }
 }
