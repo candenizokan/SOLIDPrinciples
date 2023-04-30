@@ -46,14 +46,14 @@
     <Compile Include="Bad\Balik.cs" />
     <Compile Include="Bad\Restoran.cs" />
     <Compile Include="Bad\Tavuk.cs" />
+    <Compile Include="Good\Balik.cs" />
+    <Compile Include="Good\IUrun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
