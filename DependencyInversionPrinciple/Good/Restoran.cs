@@ -10,9 +10,17 @@ namespace DependencyInversionPrinciple.Good
     {
         //ihtiyacı olan balık ve tavuğu restoren kontructorda alayım
 
-        public Restoran(IUrun urun)
-        {
 
+        private readonly IUrun _urun;
+        private readonly List<IUrun> _urunler;
+        public Restoran(IUrun urun)//dışarıdan geleni içerideki fieldima atıyorum. dışarıdan ihtiyacın olanı al içeri at
+        {
+            _urun = urun;
+        }
+
+        public Restoran(List<IUrun> urunler)//bir tanede gelse pişiririm. çokda gelse pişirim.
+        {
+            _urunler = urunler;
         }
     }
 }
