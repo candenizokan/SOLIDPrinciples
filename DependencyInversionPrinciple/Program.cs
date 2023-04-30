@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DependencyInversionPrinciple.Good;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +26,16 @@ namespace DependencyInversionPrinciple
             DIP sağlaması için DI uygulamalarından herhangi biri tercih edilebilir.
              
              */
+
+            Balik balik = new Balik();
+            Balik balik1 = new Balik();
+
+            Tavuk tavuk = new Tavuk();
+
+
+            List<IUrun> talepler = new List<IUrun> { balik,balik1,tavuk};
+            Restoran restoran = new Restoran(talepler);
+            
         }
     }
 }
