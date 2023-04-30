@@ -8,6 +8,11 @@ namespace DependencyInversionPrinciple.Good
 {
     public class Restoran
     {
+        //ihtiyacı olan balık ve tavuğu restoren kontructorda alayım
 
+        public Restoran()
+        {
+
+        }
     }
 }
